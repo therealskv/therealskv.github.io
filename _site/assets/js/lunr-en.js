@@ -39,6 +39,15 @@ var idx = lunr(function () {
       })
       
     
+      this.add({
+          title: "Hello World!",
+          excerpt: "Welcome\n\nHello World! this is my first Jekyll blog post.\n\nI hope you like it!\n\ninclude_relative javascript-games/tic-tac-toe/index.html\n\n",
+          categories: [],
+          tags: [],
+          id: 3
+      })
+      
+    
   
 });
 
@@ -80,6 +89,17 @@ var store = [
         "title": "Enterprise Territory Management",
         "url": "http://localhost:4000/2021/06/13/enterprise-territory-management.html",
         "excerpt": "\n",
+        "teaser":
+          
+            null
+          
+      },
+    
+      
+      {
+        "title": "Hello World!",
+        "url": "http://localhost:4000/2022/02/11/html-test.html",
+        "excerpt": "Welcome\n\nHello World! this is my first Jekyll blog post.\n\nI hope you like it!\n\ninclude_relative javascript-games/tic-tac-toe/index.html\n\n",
         "teaser":
           
             null
