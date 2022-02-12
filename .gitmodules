@@ -1,0 +1,3 @@
+[submodule "javascript-games"]
+	path = javascript-games
+	url = https://github.com/therealskv/javascript-games
